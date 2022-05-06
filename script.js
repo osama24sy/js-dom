@@ -23,3 +23,8 @@ pard.textContent = "Me too!";
 div.appendChild(pard);
 
 cont.appendChild(div);
+
+const btn = document.querySelector(".btn");
+btn.addEventListener('click', (e) => {
+    e.target.style.background = 'blue';
+})
